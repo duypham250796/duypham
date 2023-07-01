@@ -1,0 +1,57 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+header {
+    margin: 0;
+    background: url('./banner.jpg') no-repeat center center;
+    height: 865px;
+    width: 100%;
+}
+
+.link-about-sign-in {
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-transform: uppercase;
+}
+
+.about,
+.sign-in {
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+.sign-in {
+    margin-right: 120px;
+    margin-left: 25px;
+    border: 2px solid #8bc34a;
+    border-radius: 100px;
+}
+
+.logo {
+    background: url('./maison.png') no-repeat center center;
+    width: 100%;
+    height: 144px;
+}
+
+.text {
+    text-align: center;
+}
+
+.btn-start {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    color: #fff;
+    height: 40px;
+    border-radius: 100px;
+    background-color: green;
+    width: 144px;
+}
